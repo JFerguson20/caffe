@@ -234,6 +234,21 @@
     <ClCompile Include="..\src\caffe\layers\spp_layer.cpp">
       <Filter>Source Files\layers</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\caffe\util\cudnn.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\caffe\util\db_leveldb.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\caffe\util\db_lmdb.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\caffe\layers\filter_layer.cpp">
+      <Filter>Source Files\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\caffe\layers\log_layer.cpp">
+      <Filter>Source Files\layers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="..\src\caffe\layers\concat_layer.cu">
@@ -350,6 +365,12 @@
     <CudaCompile Include="..\src\caffe\layers\prelu_layer.cu">
       <Filter>Source Files\layers</Filter>
     </CudaCompile>
+    <CudaCompile Include="..\src\caffe\layers\filter_layer.cu">
+      <Filter>Source Files\layers</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\src\caffe\layers\log_layer.cu">
+      <Filter>Source Files\layers</Filter>
+    </CudaCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\caffe\blob.hpp">
@@ -435,6 +456,12 @@
     </ClInclude>
     <ClInclude Include="..\include\caffe\layer_factory.hpp">
       <Filter>Header Files\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\caffe\util\db_leveldb.hpp">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\caffe\util\db_lmdb.hpp">
+      <Filter>Header Files\util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

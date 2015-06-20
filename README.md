@@ -26,7 +26,21 @@ This fork is a windows port for caffe.
 This port is based on work done by [redknightlois/caffe](https://github.com/redknightlois/caffe) and [initialneil/caffe](https://github.com/initialneil/caffe/tree/windows) and [initialneils page](https://initialneil.wordpress.com/2015/01/11/build-caffe-in-windows-with-visual-studio-2013-cuda-6-5-opencv-2-4-9/)
 
 # Installation instructions
-Download 3rd party requirements [here](https://drive.google.com/file/d/0B_G5BUend20PRnFhMUlMelFEZW8/view)   
+Extract the two folders in 3rdparty.zip to current directory.
+
+You need to add 2 paths the environment variables
+
+BOOST_1_56_0  boost1.56 path eg. boost_1_56_0
+OPENCV_2_4_9  opencv path .. eg. opencv\build\x64\vc12
+
+Add the opencv bin folder to Path as well eg. opencv/build/x64/vc12/bin
+
+CUDA_PATH_V7_0 should already be there from the cuda installization .
+
+cudnn.h and lib need to be in cuda directory.
+
+boost include directory path probably needs changed.
+
 
 ## License and Citation
 

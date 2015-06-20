@@ -32,7 +32,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.0.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -59,16 +59,16 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_CUDNN;WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>../include;../src;../3rdparty/include;../3rdparty/include/openblas;../3rdparty/include/hdf5;../3rdparty/include/lmdb;$(OPENCV_X64_VS2013_2_4_9)\include;$(CUDA_PATH_V6_5)\include;$(BOOST_1_56_0);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../include;../src;../3rdparty/include;../3rdparty/include/openblas;../3rdparty/include/hdf5;../3rdparty/include/lmdb;C:\development\opencv\build\include;$(CUDA_PATH_V7_0)\include;$(BOOST_1_56_0);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opencv_core249d.lib;opencv_calib3d249d.lib;opencv_contrib249d.lib;opencv_flann249d.lib;opencv_highgui249d.lib;opencv_imgproc249d.lib;opencv_legacy249d.lib;opencv_ml249d.lib;opencv_gpu249d.lib;opencv_objdetect249d.lib;opencv_photo249d.lib;opencv_features2d249d.lib;opencv_nonfree249d.lib;opencv_stitching249d.lib;opencv_video249d.lib;opencv_videostab249d.lib;cudart.lib;cuda.lib;nppi.lib;cufft.lib;cublas.lib;curand.lib;gflagsd.lib;libglog.lib;libopenblas.dll.a;libprotobufd.lib;libprotoc.lib;leveldbd.lib;lmdbd.lib;libhdf5_D.lib;libhdf5_hl_D.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(CUDA_PATH_V6_5)\lib\$(PlatformName);$(OPENCV_X64_VS2013_2_4_9)\lib;$(BOOST_1_56_0)\lib64-msvc-12.0;../3rdparty/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(CUDA_PATH_V7_0)\lib\$(PlatformName);$(OPENCV_2_4_9)\lib;$(BOOST_1_56_0)\stage\x64\lib;../3rdparty/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PreBuildEvent>
       <Command>../scripts/GeneratePB.bat</Command>
@@ -87,7 +87,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>false</SDLCheck>
-      <AdditionalIncludeDirectories>../include;../src;../3rdparty/include;../3rdparty/include/openblas;../3rdparty/include/hdf5;../3rdparty/include/lmdb;$(OPENCV_X64_VS2013_2_4_9)\include;$(CUDA_PATH_V6_5)\include;$(BOOST_1_56_0);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../include;../src;../3rdparty/include;../3rdparty/include/openblas;../3rdparty/include/hdf5;../3rdparty/include/lmdb;C:\development\opencv\build\include;$(CUDA_PATH_V7_0)\include;$(BOOST_1_56_0);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -96,7 +96,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>opencv_core249.lib;opencv_flann249.lib;opencv_imgproc249.lib;opencv_highgui249.lib;opencv_legacy249.lib;opencv_video249.lib;opencv_ml249.lib;opencv_calib3d249.lib;opencv_objdetect249.lib;opencv_stitching249.lib;opencv_gpu249.lib;opencv_nonfree249.lib;opencv_features2d249.lib;cudart.lib;cuda.lib;nppi.lib;cufft.lib;cublas.lib;curand.lib;gflags.lib;libglog.lib;libopenblas.dll.a;libprotobuf.lib;libprotoc.lib;leveldb.lib;lmdb.lib;libhdf5.lib;libhdf5_hl.lib;Shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(CUDA_PATH_V6_5)\lib\$(PlatformName);$(OPENCV_X64_VS2013_2_4_9)\lib;$(BOOST_1_56_0)\lib64-msvc-12.0;../3rdparty/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(CUDA_PATH_V7_0)\lib\$(PlatformName);$(OPENCV_2_4_9)\lib;$(BOOST_1_56_0)\stage\x64\lib;../3rdparty/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
@@ -129,6 +129,7 @@
     <ClCompile Include="..\src\caffe\layers\eltwise_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\euclidean_loss_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\exp_layer.cpp" />
+    <ClCompile Include="..\src\caffe\layers\filter_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\flatten_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\hdf5_data_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\hdf5_output_layer.cpp" />
@@ -137,6 +138,7 @@
     <ClCompile Include="..\src\caffe\layers\image_data_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\infogain_loss_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\inner_product_layer.cpp" />
+    <ClCompile Include="..\src\caffe\layers\log_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\loss_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\lrn_layer.cpp" />
     <ClCompile Include="..\src\caffe\layers\memory_data_layer.cpp" />
@@ -165,7 +167,10 @@
     <ClCompile Include="..\src\caffe\solver.cpp" />
     <ClCompile Include="..\src\caffe\syncedmem.cpp" />
     <ClCompile Include="..\src\caffe\util\benchmark.cpp" />
+    <ClCompile Include="..\src\caffe\util\cudnn.cpp" />
     <ClCompile Include="..\src\caffe\util\db.cpp" />
+    <ClCompile Include="..\src\caffe\util\db_leveldb.cpp" />
+    <ClCompile Include="..\src\caffe\util\db_lmdb.cpp" />
     <ClCompile Include="..\src\caffe\util\im2col.cpp" />
     <ClCompile Include="..\src\caffe\util\insert_splits.cpp" />
     <ClCompile Include="..\src\caffe\util\io.cpp" />
@@ -190,10 +195,12 @@
     <CudaCompile Include="..\src\caffe\layers\eltwise_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\euclidean_loss_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\exp_layer.cu" />
+    <CudaCompile Include="..\src\caffe\layers\filter_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\hdf5_data_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\hdf5_output_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\im2col_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\inner_product_layer.cu" />
+    <CudaCompile Include="..\src\caffe\layers\log_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\lrn_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\mvn_layer.cu" />
     <CudaCompile Include="..\src\caffe\layers\pooling_layer.cu" />
@@ -232,6 +239,8 @@
     <ClInclude Include="..\include\caffe\util\benchmark.hpp" />
     <ClInclude Include="..\include\caffe\util\cudnn.hpp" />
     <ClInclude Include="..\include\caffe\util\db.hpp" />
+    <ClInclude Include="..\include\caffe\util\db_leveldb.hpp" />
+    <ClInclude Include="..\include\caffe\util\db_lmdb.hpp" />
     <ClInclude Include="..\include\caffe\util\device_alternate.hpp" />
     <ClInclude Include="..\include\caffe\util\im2col.hpp" />
     <ClInclude Include="..\include\caffe\util\insert_splits.hpp" />
@@ -249,6 +258,6 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 6.5.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.0.targets" />
   </ImportGroup>
 </Project>
