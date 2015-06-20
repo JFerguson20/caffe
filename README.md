@@ -19,6 +19,15 @@ Framework development discussions and thorough bug reports are collected on [Iss
 
 Happy brewing!
 
+# Caffe windows port
+
+This fork is a windows port for caffe.
+
+This port is based on work done by [redknightlois/caffe](https://github.com/redknightlois/caffe) and [initialneil/caffe](https://github.com/initialneil/caffe/tree/windows) and [initialneils page](https://initialneil.wordpress.com/2015/01/11/build-caffe-in-windows-with-visual-studio-2013-cuda-6-5-opencv-2-4-9/)
+
+# Installation instructions
+Download 3rd party requirements [here](https://drive.google.com/file/d/0B_G5BUend20PRnFhMUlMelFEZW8/view)   
+
 ## License and Citation
 
 Caffe is released under the [BSD 2-Clause license](https://github.com/BVLC/caffe/blob/master/LICENSE).
