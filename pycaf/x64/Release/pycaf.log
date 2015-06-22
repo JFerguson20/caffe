@@ -1,0 +1,104 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (pycaf.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\development\boost_1_56_0\boost/python/detail/caller.hpp(55): warning C4244: 'return' : conversion from 'Py_ssize_t' to 'unsigned int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1597): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1599): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1601): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1607): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1609): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1614): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1619): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1621): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1626): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1630): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/descriptor.h(1634): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/unknown_field_set.h(141): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/unknown_field_set.h(239): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+C:\development\caffe\3rdparty\include\google/protobuf/unknown_field_set.h(307): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+c:\development\caffe\3rdparty\include\hdf5\H5public.h(158): warning C4091: 'typedef ' : ignored on left of '__int64' when no variable is declared
+C:\development\caffe\include\caffe/loss_layers.hpp(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+..\python\caffe\_caffe.cpp(131): warning C4244: 'argument' : conversion from 'npy_intp' to 'int', possible loss of data
+..\python\caffe\_caffe.cpp(298): warning C4003: not enough actual parameters for macro 'import_array1'
+C:\development\caffe\include\caffe/blob.hpp(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+C:\development\boost_1_56_0\boost/python/raw_function.hpp(55): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+C:\development\boost_1_56_0\boost/python/suite/indexing/vector_indexing_suite.hpp(176): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+C:\development\boost_1_56_0\boost/python/suite/indexing/detail/indexing_suite_detail.hpp(605): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+C:\development\boost_1_56_0\boost/python/suite/indexing/detail/indexing_suite_detail.hpp(619): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\development\caffe\caffe\x64\Release\_caffe.dll) does not match the Linker's OutputFile property value (C:\development\caffe\caffe\x64\Release\_caffe.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1194,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+c:\development\caffe\src\caffe\util\db.cpp(30): warning C4715: 'caffe::db::GetDB' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(139): warning C4715: 'caffe::GetSoftmaxLayer<float>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(70): warning C4715: 'caffe::GetPoolingLayer<float>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(139): warning C4715: 'caffe::GetSoftmaxLayer<double>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(70): warning C4715: 'caffe::GetPoolingLayer<double>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(162): warning C4715: 'caffe::GetTanHLayer<float>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(116): warning C4715: 'caffe::GetSigmoidLayer<float>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(93): warning C4715: 'caffe::GetReLULayer<float>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(40): warning C4715: 'caffe::GetConvolutionLayer<float>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(162): warning C4715: 'caffe::GetTanHLayer<double>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(116): warning C4715: 'caffe::GetSigmoidLayer<double>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(93): warning C4715: 'caffe::GetReLULayer<double>' : not all control paths return a value
+c:\development\caffe\src\caffe\layer_factory.cpp(40): warning C4715: 'caffe::GetConvolutionLayer<double>' : not all control paths return a value
+libprotobuf.lib(descriptor.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(descriptor.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(descriptor.pb.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(descriptor.pb.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(descriptor_database.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(descriptor_database.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(dynamic_message.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(dynamic_message.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(extension_set.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(extension_set.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(extension_set_heavy.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(extension_set_heavy.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(generated_message_reflection.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(generated_message_reflection.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(generated_message_util.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(generated_message_util.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(coded_stream.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(coded_stream.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(strtod.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(strtod.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(tokenizer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(tokenizer.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(zero_copy_stream.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(zero_copy_stream.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(zero_copy_stream_impl.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(zero_copy_stream_impl_lite.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(message.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(message.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(message_lite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(message_lite.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(reflection_ops.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(reflection_ops.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(repeated_field.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(repeated_field.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(atomicops_internals_x86_msvc.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(common.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(common.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(once.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(once.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(stringprintf.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(stringprintf.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(structurally_valid.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(structurally_valid.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(strutil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(strutil.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(substitute.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(substitute.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(text_format.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(text_format.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(unknown_field_set.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(unknown_field_set.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(wire_format.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(wire_format.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+libprotobuf.lib(wire_format_lite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libprotobuf.lib(wire_format_lite.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(builder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(builder.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(dbformat.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(dbformat.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(db_impl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(db_impl.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(db_iter.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(db_iter.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(filename.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(filename.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(log_reader.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(log_reader.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(log_writer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(log_writer.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(memtable.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(memtable.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(table_cache.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(table_cache.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(version_edit.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(version_edit.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(version_set.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(version_set.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(write_batch.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(write_batch.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(port_win.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(port_win.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(block.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(block.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(block_builder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(block_builder.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(format.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(format.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(iterator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(iterator.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(merger.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(merger.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(table.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(table.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(table_builder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(table_builder.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(two_level_iterator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(two_level_iterator.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(arena.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(arena.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(cache.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(cache.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(coding.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(coding.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(comparator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(comparator.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(crc32c.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(crc32c.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(env.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(env.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(env_boost.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(env_boost.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(hash.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(hash.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(logging.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(logging.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(options.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(options.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(status.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(status.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+leveldb.lib(win_logger.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'leveldb.lib(win_logger.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+lmdb.lib(mdb.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'lmdb.lib(mdb.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info
+lmdb.lib(midl.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'lmdb.lib(midl.obj)' or at 'C:\development\caffe\caffe\x64\Release\vc120.pdb'; linking object as if no debug info

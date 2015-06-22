@@ -89,6 +89,7 @@
       <SDLCheck>false</SDLCheck>
       <AdditionalIncludeDirectories>../include;../src;../3rdparty/include;../3rdparty/include/openblas;../3rdparty/include/hdf5;../3rdparty/include/lmdb;C:\development\opencv\build\include;$(CUDA_PATH_V7_0)\include;$(BOOST_1_56_0);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
